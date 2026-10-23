@@ -94,7 +94,7 @@ An empty default means the variable is unset and its value is determined automat
 | `WEB` | `Y` | Enables the web interface. |
 | `WEB_PORT` | `8006` | Port for the web interface. |
 | `VNC_PORT` | `5900` | Port for the VNC server. |
-| `LOSSY` | `N` | Enables lossy VNC compression to reduce bandwidth usage. |
+| `LOSSY` | `Y` | Enables lossy VNC compression to reduce bandwidth usage and improve frame rate. Set `N` for pixel-exact output. |
 | `AUDIO` | `N` | Streams guest audio to the web viewer. |
 | `PROTECT` | `N` | Enables password protection for the web interface. |
 

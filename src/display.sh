@@ -6,7 +6,7 @@ set -Eeuo pipefail
 : "${VGA:="virtio"}"          # VGA adapter
 : "${GPU:="N"}"               # GPU acceleration
 : "${DISPLAY:="web"}"         # Display type
-: "${LOSSY:="N"}"             # Lossy VNC compression
+: "${LOSSY:="Y"}"             # Lossy VNC compression
 : "${VNC_PORT:="5900"}"       # VNC port
 : "${RENDERNODE:=""}"         # Render node
 : "${VRAM_SIZE:="4G"}"        # VirtIO GPU memory budget
