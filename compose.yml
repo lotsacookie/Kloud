@@ -1,9 +1,12 @@
 services:
   windows:
-    image: dockurr/windows
+    build: .
+    image: singularity-vms
     container_name: windows
     environment:
       VERSION: "11"
+      CPU_CORES: "half"
+      RAM_SIZE: "half"
     devices:
       - /dev/kvm
       - /dev/net/tun
